@@ -1,10 +1,10 @@
-def date(day,month,year):
+def date(day, month, year):
     if day < 1:
         return False
     if month < 1 or month > 12:
         return False
-    months_31 = [1,3,5,7,8,10,12]
-    months_30 = [4,6,9,11]
+    months_31 = [1, 3, 5, 7, 8, 10, 12]
+    months_30 = [4, 6, 9, 11]
     if month in months_31:
         if day > 31:
             return False
@@ -20,5 +20,3 @@ def date(day,month,year):
                 return False
     else:
         return True
- 
-print(date(1,20,2022))

@@ -1,3 +1,3 @@
-from date_check import date 
+from date_check import date
 
-print(date(1,20,2022)) 
+print(date(1, 13, 2022))
