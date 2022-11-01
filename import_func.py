@@ -1,4 +1,4 @@
-
+" fuction"
 from project import readfile
 while True:
     file = input("Выберите файл - harry_potter.txt или avengers.txt (q чтобы выйти): ")
